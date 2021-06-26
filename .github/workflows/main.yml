@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: trigger single Job
-      uses: http://localhost:8181/job/Secops-docker
+      uses: isaacdevsecops/jenkins-action@master
       with:
         url: " http://localhost:8181/user/admin/"
         user: "/user/admin"
         token: “115007be2fd14a7cf977345eaab88c9011”
-        job: "foobar"
+        job: "Pipeline Devsecops-versioning"
 
