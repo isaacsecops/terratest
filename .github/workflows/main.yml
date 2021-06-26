@@ -7,9 +7,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: trigger single Job
-      uses: isaacdevsecops/jenkins/Devsecops-versioning@master
+      uses: isaacdevsecops/jenkins-action@master
       with:
-        url: " http://localhost:8181/user/admin/"
+        url: "http://localhost:8181/job/Devsecops-versioning/"
         user: "/user/admin"
         token: “115007be2fd14a7cf977345eaab88c9011”
         job: "Pipeline Devsecops-versioning"
