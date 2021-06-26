@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: trigger single Job
-      uses: isaacdevsecops/8181/job/Devsecops-versioning/
+      uses: isaacdevsecops/Devsecops-versioning@master
       with:
         url: " http://localhost:8181/user/admin/"
         user: "/user/admin"
